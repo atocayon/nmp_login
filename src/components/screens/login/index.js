@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { ReactSVG } from "react-svg";
-import sideImg from "../../img/Untitled-1.svg";
-import logo from "../../img/logo.svg";
-import userAvatar from "../../img/user.svg";
+import sideImg from "../../../img/Untitled-1.svg";
+import logo from "../../../img/logo.svg";
+import userAvatar from "../../../img/user.svg";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import IconButton from "@material-ui/core/IconButton";
 import Input from "@material-ui/core/Input";
@@ -10,7 +10,7 @@ import InputLabel from "@material-ui/core/InputLabel";
 import FormControl from "@material-ui/core/FormControl";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import VisibilityOffIcon from "@material-ui/icons/VisibilityOff";
-import InputField from "../common/textField/InputField";
+import InputField from "../../common/textField/InputField";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 function Login(props) {
